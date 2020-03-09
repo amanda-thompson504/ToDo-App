@@ -1,0 +1,64 @@
+body{
+    background-image: url("https://i.ibb.co/82YCPGV/shutterstock-304637747.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+h1, h2{
+    margin-top: 25px;
+    color: rgb(51, 194, 82);
+    text-align: center;
+}
+
+.list {
+	border-radius: 50px;
+    background-color: white;
+	opacity: 0.5;
+    color: rgb(50, 0, 63);
+    position: relative;
+    margin-top: 8em;
+    margin-left: 20em;
+    margin-right: 20em;
+	
+}
+
+.btn{
+    cursor: pointer;
+    background: rgb(66, 184, 221); 
+    color: white;
+    border-radius: 4px;
+    font-size: 80%;
+}
+
+.btnAgain {
+    cursor: pointer;
+    background: rgb(66, 184, 221); 
+    color: white;
+    border-radius: 4px;
+    font-size: 50%;
+}
+
+.task {
+    list-style-type: none;
+    font-size: 200%;
+    text-align: left;
+}
+
+.input {
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+    display: block;
+}
+
+.header{
+    border: 3px solid green;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.newText{
+    font-size: 100%;
+}

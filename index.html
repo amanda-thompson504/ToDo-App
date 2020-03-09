@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ToDo Exercise</title>
+  <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="header">
+    <h1>Do All The Things!</h1>
+    <h2>Don't forget to do: </h2>
+
+    <div class="input">
+        <form class="form">
+            <input type="text" name="newText" class="newText" placeholder="Add new task to list">
+            <button type="submit" id="submit" class="btn">Add To List</button>
+        </form>
+    </div>
+</div>
+
+<div class="list">
+    <h1>Things To Do:</h1>
+    <ul id="toDo" class="task">
+        <li>Eat Your Wheaties<button type="button" id="button" class="btnAgain">Done!</button></li>
+        <li>Drink Your Ovaltine<button type="button" id="button" class="btnAgain">Done!</button></li>
+    </ul>
+</div>
+
+</html>
+
+<script src="app.js"></script>
+
+</body>
+
+<!-- Add new todo by submitting FORM 
+Mark todo as completed
+Remove a todo 
+Store in local storage -->
